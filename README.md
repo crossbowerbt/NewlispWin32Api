@@ -1,12 +1,12 @@
 # NewlispWin32Api
-Direct use of Win32 API from Newlisp (to create native GUIs and more...)
+Direct use of **Win32 API** from **newlisp** (to create native GUIs and more...)
 
 ---
 
-This project imports into the newlisp context `WIN32` the mappings for the Win32 native APIs, i.e. the functions and enumerations contained in the gdi32.dll, user32.dll and other DLLs of windows. You can find the bindings in the files under are cointained under [Win32HeadersNewlisp](Win32HeadersNewlisp).
+This project imports into the newlisp context `WIN32` the mappings for the Win32 native APIs, i.e. the functions and enumerations contained in the **gdi32.dll**, **user32.dll** and other DLLs of windows. You can find the bindings in the files under are cointained under [Win32HeadersNewlisp](Win32HeadersNewlisp).
 
 To use the library is very simple, here is the example cointained in [MessageBox.nl](MessageBox.nl):
-```
+```newlisp
 #!/bin/newlisp
 
 (change-dir "Win32HeadersNewlisp")
