@@ -3,9 +3,9 @@ Direct use of Win32 API from Newlisp (to create native GUIs and more...)
 
 ---
 
-This project imports into the newlisp context `WIN32` the mappings for the Win32 native APIs, i.e. the functions and enumerations contained in the gdi32.dll, user32.dll and other DLLs of windows. You can find the bindings in the files under are cointained under https://github.com/crossbowerbt/NewlispWin32Api/tree/main/Win32HeadersNewlisp.
+This project imports into the newlisp context `WIN32` the mappings for the Win32 native APIs, i.e. the functions and enumerations contained in the gdi32.dll, user32.dll and other DLLs of windows. You can find the bindings in the files under are cointained under [Win32HeadersNewlisp](Win32HeadersNewlisp).
 
-To use the library is very simple, here is the example cointained in https://github.com/crossbowerbt/NewlispWin32Api/blob/main/MessageBox.nl:
+To use the library is very simple, here is the example cointained in [MessageBox.nl](MessageBox.nl):
 ```
 #!/bin/newlisp
 
@@ -37,13 +37,16 @@ The examples can be simple executed with:
 newlisp.exe Example.nl
 ```
 
-Simple **CreateWindow** example (https://github.com/crossbowerbt/NewlispWin32Api/blob/main/CreateWindow.nl):
+Simple **CreateWindow** example [CreateWindow.nl](CreateWindow.nl):
+
 ![Create Window!](images/CreateWindow.png "Create Window")
 
-A **MessageBox** example (https://github.com/crossbowerbt/NewlispWin32Api/blob/main/MessageBox.nl):
+A **MessageBox** example [MessageBox.nl](MessageBox.nl):
+
 ![Message Box!](images/MessageBox.png "Message Box")
 
-A window that displays all the **SystemMetrics** (https://github.com/crossbowerbt/NewlispWin32Api/blob/main/DisplayAllSystemMetrics.nl):
+A window that displays all the **SystemMetrics** [DisplayAllSystemMetrics.nl](DisplayAllSystemMetrics.nl):
+
 ![Display All System Metrics!](images/DisplayAllSystemMetrics.png "Display All System Metrics")
 
 ## TODO
